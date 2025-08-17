@@ -1,23 +1,23 @@
 {
   "index.html": {
-    "file": "assets/index-BcbI7_Lu.js",
+    "file": "assets/index-D3APOEY9.js",
     "name": "index",
     "src": "index.html",
     "isEntry": true,
     "css": [
-      "assets/index-BhN0cvDE.css"
+      "assets/index-DXjUPPj2.css"
     ],
     "assets": [
-      "assets/cards-mat-BrvJaTld.png",
-      "assets/game-tile-7OGqMQAt.png"
+      "assets/mahjong-BqxFvn6v.png",
+      "assets/qualigraphy-CA-FeUQi.png"
     ]
   },
-  "src/assets/cards-mat.png": {
-    "file": "assets/cards-mat-BrvJaTld.png",
-    "src": "src/assets/cards-mat.png"
+  "src/assets/images/mahjong.png": {
+    "file": "assets/mahjong-BqxFvn6v.png",
+    "src": "src/assets/images/mahjong.png"
   },
-  "src/assets/game-tile.png": {
-    "file": "assets/game-tile-7OGqMQAt.png",
-    "src": "src/assets/game-tile.png"
+  "src/assets/images/qualigraphy.png": {
+    "file": "assets/qualigraphy-CA-FeUQi.png",
+    "src": "src/assets/images/qualigraphy.png"
   }
 }
