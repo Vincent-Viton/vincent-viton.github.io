@@ -1,0 +1,45 @@
+{
+  "id": "puzzle-001",
+  "title": "Chengyu mystère · 爱不释手",
+  "subtitle": "Assembler les quatre phrases · trouver le chengyu caché",
+  "chengyu": ["爱", "不", "释", "手"],
+  "chengyuTranslation": "愛不釋手 · « On ne peut se résoudre à le lâcher » — attachement profond à ce que l'on chérit.",
+  "phrases": [
+    {
+      "id": 1,
+      "text": "流水释花意手藏春",
+      "definition": "L'eau qui coule libère l'intention de la fleur ; la main cache le printemps.",
+      "direction": "horizontal",
+      "startX": 46,
+      "startY": 50,
+      "pinyin": ["liú", "shuǐ", "shì", "huā", "yì", "shǒu", "cáng", "chūn"]
+    },
+    {
+      "id": 2,
+      "text": "风雨不侵心手同尘",
+      "definition": "Le vent et la pluie n'atteignent pas le cœur ; la main et la poussière sont une seule et même chose.",
+      "direction": "vertical",
+      "startX": 51,
+      "startY": 45,
+      "pinyin": ["fēng", "yǔ", "bù", "qīn", "xīn", "shǒu", "tóng", "chén"]
+    },
+    {
+      "id": 3,
+      "text": "真心爱世界不言语",
+      "definition": "Avec un cœur sincère, aimer le monde sans paroles.",
+      "direction": "horizontal",
+      "startX": 46,
+      "startY": 47,
+      "pinyin": ["zhēn", "xīn", "ài", "shì", "jiè", "bù", "yán", "yǔ"]
+    },
+    {
+      "id": 4,
+      "text": "旧梦爱烟火释尘埃",
+      "definition": "Les vieux rêves aiment la fumée et le feu ; ils relâchent la poussière.",
+      "direction": "vertical",
+      "startX": 48,
+      "startY": 45,
+      "pinyin": ["jiù", "mèng", "ài", "yān", "huǒ", "shì", "chén", "āi"]
+    }
+  ]
+}
