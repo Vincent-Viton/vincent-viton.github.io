@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="7" fill="#0d1117"/>
+  <!-- crenellated tower -->
+  <path fill="#388bfd" d="M9 11h2V8h3v3h4V8h3v3h2v16H9z"/>
+  <rect x="14" y="17" width="4" height="10" rx="1" fill="#0d1117"/>
+  <rect x="12" y="13" width="8" height="2" fill="#7ab8f5"/>
+</svg>
