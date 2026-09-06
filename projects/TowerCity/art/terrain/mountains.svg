@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <title>Mountains — impassable, unbuildable</title>
+  <defs>
+    <clipPath id="hex"><path d="M64 0 119.4 32V96L64 128 8.6 96V32Z"/></clipPath>
+  </defs>
+  <g clip-path="url(#hex)">
+    <path d="M64 0 119.4 32V96L64 128 8.6 96V32Z" fill="#6a7180"/>
+
+    <!-- Faceted peaks: lit face, shadow face, so the massif reads as raised
+         even at 25px. -->
+    <g>
+      <path d="M64 22 96 84H32Z" fill="#98a1b0"/>
+      <path d="M64 22 96 84H64Z" fill="#767f8e"/>
+      <path d="M64 22 76 46 64 58 52 46Z" fill="#d6dde6"/>
+      <path d="M34 52 58 96H10Z" fill="#8b94a3"/>
+      <path d="M34 52 58 96H34Z" fill="#6d7684"/>
+      <path d="M96 46 122 96H70Z" fill="#8b94a3"/>
+      <path d="M96 46 122 96H96Z" fill="#6d7684"/>
+    </g>
+    <path d="M32 84h64l-8 10H40Z" fill="#575e6b" opacity=".55"/>
+
+    <!-- Slate rim, matching the hills' rim language. -->
+    <path d="M64 0 119.4 32V96L64 128 8.6 96V32Z" fill="none" stroke="#4a515e" stroke-width="8"/>
+  </g>
+</svg>

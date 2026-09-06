@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <title>Hills — readable under a building</title>
+  <defs>
+    <clipPath id="hex"><path d="M64 0 119.4 32V96L64 128 8.6 96V32Z"/></clipPath>
+  </defs>
+  <g clip-path="url(#hex)">
+    <path d="M64 0 119.4 32V96L64 128 8.6 96V32Z" fill="#8d9440"/>
+
+    <!-- Topographic contours. Deliberately pushed out towards the rim: a tower
+         or a town sits in the middle of the hex, so anything that identifies
+         the terrain has to live where a structure cannot cover it. -->
+    <g fill="none" stroke="#a9b055" stroke-width="3">
+      <path d="M64 12 111 39v50L64 116 17 89V39Z" opacity=".85"/>
+      <path d="M64 26 99 46v36L64 102 29 82V46Z" opacity=".6"/>
+    </g>
+    <g fill="none" stroke="#6f7530" stroke-width="2" opacity=".7">
+      <path d="M64 19 105 42v44L64 109 23 86V42Z"/>
+    </g>
+
+    <!-- Ochre rim band, the unmissable cue. -->
+    <path d="M64 0 119.4 32V96L64 128 8.6 96V32Z" fill="none" stroke="#c2a03e" stroke-width="8" opacity=".85"/>
+  </g>
+</svg>
