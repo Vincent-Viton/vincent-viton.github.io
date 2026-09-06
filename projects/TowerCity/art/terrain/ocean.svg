@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <title>Ocean — the edge of the map, and where the landings come from</title>
+  <defs>
+    <clipPath id="hex"><path d="M64 0 119.4 32V96L64 128 8.6 96V32Z"/></clipPath>
+  </defs>
+  <g clip-path="url(#hex)">
+    <path d="M64 0 119.4 32V96L64 128 8.6 96V32Z" fill="#1b4f79"/>
+
+    <!-- Open chop, running one way across the whole tile so a stretch of sea
+         reads as one body of water rather than a row of hexes. -->
+    <g fill="none" stroke="#3c7cab" stroke-width="3" stroke-linecap="round" opacity=".75">
+      <path d="M14 34q10-6 20 0t20 0 20 0 20 0 20 0"/>
+      <path d="M6 62q10-6 20 0t20 0 20 0 20 0 20 0 20 0"/>
+      <path d="M14 90q10-6 20 0t20 0 20 0 20 0 20 0"/>
+    </g>
+    <g fill="none" stroke="#6aa8d2" stroke-width="2" stroke-linecap="round" opacity=".5">
+      <path d="M24 48q10-5 20 0t20 0 20 0"/>
+      <path d="M24 76q10-5 20 0t20 0 20 0"/>
+    </g>
+
+    <!-- Deep rim, dark rather than bright: the sea should sit BEHIND the
+         island, not compete with it. -->
+    <path d="M64 0 119.4 32V96L64 128 8.6 96V32Z" fill="none" stroke="#123a5b" stroke-width="8"/>
+  </g>
+</svg>

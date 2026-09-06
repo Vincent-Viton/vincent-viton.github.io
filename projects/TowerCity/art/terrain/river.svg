@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <title>River — the banks; the water itself is drawn to fit its neighbours</title>
+  <defs>
+    <clipPath id="hex"><path d="M64 0 119.4 32V96L64 128 8.6 96V32Z"/></clipPath>
+  </defs>
+  <g clip-path="url(#hex)">
+    <!-- Only the valley floor is painted here. The channel cannot live in a
+         tile: it has to meet the water in the next hex, and two courses
+         joining have to look like one river, so the renderer draws it from the
+         sides this hex actually connects on. -->
+    <path d="M64 0 119.4 32V96L64 128 8.6 96V32Z" fill="#6f9c33"/>
+
+    <!-- Lush bottom-land: greener than the plains, which is the visual reason
+         the hex is worth more to live on. -->
+    <g fill="#84b23d" opacity=".6">
+      <ellipse cx="36" cy="42" rx="14" ry="9"/>
+      <ellipse cx="94" cy="46" rx="12" ry="8"/>
+      <ellipse cx="38" cy="90" rx="12" ry="8"/>
+      <ellipse cx="92" cy="88" rx="14" ry="9"/>
+    </g>
+
+    <!-- Reeds, out at the rim where nothing gets built. -->
+    <g stroke="#4d7c25" stroke-width="2.5" stroke-linecap="round" opacity=".8">
+      <path d="M22 56v-9M27 58v-12M32 57v-8"/>
+      <path d="M96 74v-9M101 76v-12M106 75v-8"/>
+      <path d="M56 108v-9M61 110v-12M66 109v-8"/>
+    </g>
+
+    <!-- Reed-green rim band, matching the rim language of the other tiles. -->
+    <path d="M64 0 119.4 32V96L64 128 8.6 96V32Z" fill="none" stroke="#4f8442" stroke-width="8" opacity=".85"/>
+  </g>
+</svg>

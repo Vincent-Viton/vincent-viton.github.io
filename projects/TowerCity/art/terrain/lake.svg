@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <title>Lake — impassable on foot, and nothing is built on it</title>
+  <defs>
+    <clipPath id="hex"><path d="M64 0 119.4 32V96L64 128 8.6 96V32Z"/></clipPath>
+  </defs>
+  <g clip-path="url(#hex)">
+    <path d="M64 0 119.4 32V96L64 128 8.6 96V32Z" fill="#2f6f9e"/>
+
+    <!-- Still water: concentric shallows rather than the sea's chop, which is
+         the whole difference the player has to read at a glance — one of these
+         is a wall, the other is where the fleet comes from. -->
+    <g fill="none" stroke="#4c8fbc" stroke-width="3" opacity=".65">
+      <path d="M64 18 104 41v46L64 110 24 87V41Z"/>
+      <path d="M64 36 88 50v28L64 92 40 78V50Z"/>
+    </g>
+    <g fill="#7fc0e4" opacity=".5">
+      <ellipse cx="52" cy="56" rx="10" ry="3"/>
+      <ellipse cx="78" cy="74" rx="9" ry="3"/>
+    </g>
+
+    <!-- Sandy shore: a lake has a beach all the way round, and nothing beyond
+         it. That band is what tells it apart from open sea at small sizes. -->
+    <path d="M64 0 119.4 32V96L64 128 8.6 96V32Z" fill="none" stroke="#cbb98c" stroke-width="8" opacity=".9"/>
+  </g>
+</svg>
