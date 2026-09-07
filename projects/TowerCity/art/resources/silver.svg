@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <title>Silver mine</title>
+  <!-- A map marker, not a scene: drawn at roughly a sixth of a hex, so the
+       shape has to read at sixteen pixels. Dark disc for contrast against any
+       terrain, one bold ore silhouette, one highlight. -->
+  <circle cx="32" cy="32" r="27" fill="#12181f" opacity=".82"/>
+  <circle cx="32" cy="32" r="27" fill="none" stroke="#cfd8e3" stroke-width="4"/>
+  <!-- Two nuggets, the near one overlapping the far one. -->
+  <g stroke="#7d8896" stroke-width="2.5" stroke-linejoin="round">
+    <path d="M35 18 46 24 44 36 33 39 26 30Z" fill="#aab6c4"/>
+    <path d="M24 30 37 36 34 47 20 46 15 36Z" fill="#e3ebf3"/>
+  </g>
+  <path d="M20 37 26 33 32 39" fill="none" stroke="#fff" stroke-width="3"
+        stroke-linecap="round" stroke-linejoin="round" opacity=".75"/>
+</svg>
